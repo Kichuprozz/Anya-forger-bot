@@ -39,7 +39,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID')
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-SUPPORT_CHAT_ID = -1001792675255
+SUPPORT_CHAT_ID = -1001911092745
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
@@ -58,7 +58,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📂 <em>File Name</em>: <code>PIRO|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> \n\n❤️‍🔥 </i>Join</i> [𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗟𝗜𝗡𝗞𝗭](https://t.me/blaster_linkz)  \n\n🖥 <i>Requests</i> - ||@raixchat|| ')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📂 <em>File Name</em>: <code>CK|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> \n\n❤️‍🔥 </i>Join</i> [CKFLICKS](https://t.me/CKFLICKS)  \n\n🖥 <i>Requests</i> - ||@AM_FILMS|| ')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [『ᴘɪʀᴏ』](t.me/piroxbots)')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
