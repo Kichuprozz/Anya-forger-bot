@@ -1,9 +1,4 @@
-<p align="center">
-  <img src="assets/logo.jpg">
-</p>
-<h1 align="center">
-  <b>PiroAutoFilterBot</b>
-</h1>
+<img src="https://github.com/SP-XD/SP-XD/blob/main/images/dino_rounded.gif?raw=true" href="https://github.com/SP-XD" />
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PIRO+MOVIE+SEARCH+BOT+!;CREATED+BY+PIRO!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)</p>
 <a href="https://github.com/ritheshrkrm/PiroAutoFilterBot/stargazers"><img src="https://img.shields.io/github/stars/ritheshrkrm/PiroAutoFilterBot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
